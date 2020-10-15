@@ -14,11 +14,33 @@ const questions = [
         name: "description",
     },
     {
-        type: "lists",
-        message: "Give a description of your project",
-        name: "description",
-        choices: ["MIT",],
+        type: "input",
+        message: "Explain the installation instructions",
+        name: "installation",
+        // choices: ["MIT",],
     },
+    {
+        type: "input",
+        message: "What is the usage information?",
+        name: "usage",
+    },
+    {
+        type: "input",
+        message: "What are the contribution guidelines?",
+        name: "contribution",
+    },
+    {
+        type: "input",
+        message: "What are the test instructions?",
+        name: "instructions",
+    },
+    {
+        type: "list",
+        message: "What are the test instructions?",
+        name: "license",
+        choices: ["MIT", "GNU AGPLv3", "GNU GPLv3", "The Unlicense"]
+    },
+
 ];
 
 // function to write README file
