@@ -2,39 +2,8 @@
 function generateMarkdown(data) {
   return `# ${data.title}  
 
-## Table of Contents
-
-  |Title |
-  
-  Description 
-  Installation 
-  Usage |
-  Contributing Guidelines 
-  Tests 
-  Questions
-
-
-### Description  
-  
-  ${data.description} 
-
-### Installation Instructions
-
-  ${data.installation}
-
-### Usage Information
-
-  ${data.usage}
-
-### Contribution Guidelines 
-
-  ${data.contribution}
-
-### Test Instructions
-
-  ${data.instructions}
-
 ### License
+______________________________________
 
   ${data.license}
 
@@ -43,6 +12,50 @@ function generateMarkdown(data) {
 
   http://github.com - automatic!
 [GitHub](http://github.com)
+  
+## Table of Contents
+______________________________________
+
+  Description |
+  Installation |
+  Usage |
+  Contributing Guidelines |
+  Tests |
+  Questions|
+
+
+## Description  
+______________________________________
+  
+  ${data.description} 
+
+## Installation Instructions
+______________________________________
+
+  ${data.installation}
+
+## Usage Information
+______________________________________
+
+  ${data.usage}
+
+## Contribution Guidelines 
+______________________________________
+
+  ${data.contribution}
+
+## Test Instructions
+______________________________________
+
+  ${data.instructions}
+
+## Questions
+______________________________________
+
+  [Email] (${data.email})
+  
+  [GitHub](${data.github})
+
 
 
 

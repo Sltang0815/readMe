@@ -10,12 +10,12 @@ const questions = [
     },
     {
         type: "input",
-        message: "Give a description of your project",
+        message: "Give a description of your project:",
         name: "description",
     },
     {
         type: "input",
-        message: "Explain the installation instructions",
+        message: "Explain the installation instructions:",
         name: "installation",
         // choices: ["MIT",],
     },
@@ -36,9 +36,19 @@ const questions = [
     },
     {
         type: "list",
-        message: "What are the test instructions?",
+        message: "What license would you like to use?",
         name: "license",
         choices: ["MIT", "GNU AGPLv3", "GNU GPLv3", "The Unlicense"]
+    },
+    {
+        type: "input",
+        message: "What is your email?",
+        name: "email",
+    },
+    {
+        type: "input",
+        message: "What is your GitHub?",
+        name: "github",
     },
 
 ];
